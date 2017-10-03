@@ -1,0 +1,17 @@
+# Modified from bioconda/java-jdk/7
+
+package:
+  name: metagene-annotator
+  version: 2008.08.18
+
+build:
+  number: 0
+  binary_relocation: False
+
+test:
+  commands:
+    - mga || $(e=$?; if [ $e -eq 1 ]; then true; else false; fi)
+
+about:
+    home: http://metagene.cb.k.u-tokyo.ac.jp/
+    summary: Fast gene prediction for short metagenomic sequences
