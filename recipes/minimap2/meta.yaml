@@ -1,4 +1,4 @@
-{% set version = "2.12" %}
+{% set version = "2.16" %}
 
 package:
   name: minimap2
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/lh3/minimap2/archive/v{{ version }}.tar.gz
-  sha256: 7bcac08a6e867c99b307afc8b2c07e36897ce8df702b6c2bdd3eeffff2a373e4
+  sha256: 9d4f1c9f1c2b29c2560b7ad53b2210dabd82161a0f88184f423534bd289433c3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

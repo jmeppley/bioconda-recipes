@@ -1,5 +1,5 @@
-{% set version = "0.6.10" %}
-{% set sha256 = "39c6c33edee1505865d1e6400952c5fdb342478cb5777e6e4eb480f2f46e7084" %}
+{% set version = "0.6.19" %}
+{% set sha256 = "efe53097c07fdb8e3896168772782dfaa3ad9f41d6aad845a23561e7fd72d42c" %}
 
 package:
   name: anndata
@@ -21,7 +21,7 @@ requirements:
     - pathlib
   run:
     - python >=3.5
-    - pandas >=0.21.0
+    - pandas >=0.23.0
     - scipy
     - h5py
     - natsort

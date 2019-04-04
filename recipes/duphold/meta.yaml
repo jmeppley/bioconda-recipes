@@ -1,6 +1,6 @@
 {% set name = "duphold" %}
-{% set version = "0.0.6" %}
-{% set sha256hash = "6bf68965393306e322afdf171da813e3fb331ca2a47226d6ab70e92fe6c7e523" %}
+{% set version = "0.1.2" %}
+{% set sha256hash = "3543442d1c58fadda8b5de65b4906b6c654298d27ac13ace5cc2071a7414a02b" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,6 @@ build:
 
 requirements:
   run:
-    - pcre
     - htslib
 
 test:
